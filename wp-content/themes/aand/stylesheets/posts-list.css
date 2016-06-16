@@ -1,0 +1,12 @@
+/**** Posts List ****/
+ul#posts-list { }
+ul#posts-list li { margin-bottom:10px; }
+
+ul#posts-list li div.post-thumbnail { float:left; width:50px; height:50px; }
+ul#posts-list li div.post-thumbnail a { display:block; height:100%; }
+ul#posts-list li div.post-thumbnail a img { width:50px; height:50px; }
+
+ul#posts-list li div.post-description { float:right; width:550px; }
+ul#posts-list li div.post-description h3 a { line-height:20px; color:#000; display:block; text-decoration:none; font-size:14px; text-transform:uppercase; }
+ul#posts-list li div.post-description p { line-height:15px; color:#484848; height:30px; overflow:hidden; }
+ul#posts-list li div.post-description a.read-more { margin-left:auto; margin-top:10px;  }

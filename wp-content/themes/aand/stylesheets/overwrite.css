@@ -1,0 +1,16 @@
+h1,h2,h3,h4,h5{  
+    color: #000;
+}
+
+.woocommerce p {
+    color: #000;
+}
+
+.woocommerce ul.products li.product{
+  color: #000;
+  text-align: center;
+}
+
+.woocommerce ul.products li.product .price{
+  color: #000;
+}

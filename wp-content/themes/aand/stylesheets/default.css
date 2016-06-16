@@ -1,0 +1,123 @@
+/*
+	This css file contains all the elements that are unique to this theme
+*/
+a { color:#FFF; text-decoration: none; }
+
+h1,h2,h3,h4,h5{  
+    color: #FFF; 
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+}  
+h1{  
+    font-size: 2.6em;  
+    line-height: 2.45em;  
+}  
+h2{  
+    font-size: 2.1em;  
+    line-height: 1.9em;  
+}  
+h3{  
+    font-size: 1.8em;  
+    line-height: 1.65em;  
+}  
+h4{  
+    font-size: 1.65em;  
+    line-height: 1.4em;  
+}  
+h5{  
+    font-size: 1.4em;  
+    line-height: 1.25em;  
+}  
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+	font-weight:bold;
+}
+
+
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #ddd;
+}
+ 
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display inline;
+}
+
+img.polaroid {
+    background:#000; /*Change this to a background image or remove*/
+    border:solid #fff;
+    border-width:6px 6px 20px 6px;
+    box-shadow:1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
+    -webkit-box-shadow:1px 1px 5px #333;
+    -moz-box-shadow:1px 1px 5px #333;
+    height:200px; /*Set to height of your image or desired div*/
+    width:200px; /*Set to width of your image or desired div*/
+}
+
+
+table {
+	font-size:11px;
+    color:#FFF;
+	border-width: 1px;
+	border-color: #000;
+	border-collapse: collapse;
+}
+table th {
+	border-width: 1px;
+	padding: 0px;
+	border-style: solid;
+	border-color: #000;
+}
+table td {
+	border-width: 1px;
+	padding: 0px;
+	border-style: solid;
+    border-color: #000;
+}
+
+
+dt {
+	font-weight: bold;
+}
+dd {
+	background:none no-repeat left top;
+	padding-left: 50px;
+}
+dd.catchPhrase1 {
+	background-image:url('../img/paper_small.gif');
+}
+dd.catchPhrase2 {
+	background-image:url('../img/stats.gif');
+}
+
+
+

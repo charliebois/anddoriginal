@@ -1,0 +1,9 @@
+/*
+	All the default classes that we require for a website
+*/
+
+*.float-divider {width:auto; clear:both; height:1px; line-height:1px; font-size:1px; display:block; float:none !important; display:block; border:0px; margin:0; padding:0;}
+
+*.alignleft { float:left; margin:5px 5px 5px 0px; }
+*.alignright { float:right; margin:0px 0px 5px 5px; }
+*.linklove { display:none !important; }
