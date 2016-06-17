@@ -97,6 +97,11 @@ Woocommerce override
 
 .woocommerce a.button.add_to_cart_button{ display: none;}
 
+.post-type-archive-product.woocommerce ul.products li.product, 
+.post-type-archive-product.woocommerce-page ul.products li.product {
+	width: 30.5%;
+}
+
 #swipebox-close {bottom:0px !important; right:0px !important; top:initial !important;}
 
 
