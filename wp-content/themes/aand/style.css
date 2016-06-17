@@ -102,6 +102,10 @@ Woocommerce override
 	width: 30.5%;
 }
 
+.woocommerce span.onsale {
+	z-index: 1000 !important;
+}
+
 #swipebox-close {bottom:0px !important; right:0px !important; top:initial !important;}
 
 
