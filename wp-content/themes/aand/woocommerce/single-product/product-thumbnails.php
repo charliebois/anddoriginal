@@ -23,7 +23,8 @@ global $post, $product, $woocommerce;
 
 $attachment_ids = $product->get_gallery_attachment_ids();
 
-if ( $attachment_ids ) {
+// if thre is a thumbnail or product gallery images set display them in the product slider
+if ( $attachment_ids || has_post_thumbnail() ) {
 	$loop 		= 0;
 	$columns 	= apply_filters( 'woocommerce_product_thumbnails_columns', 3 );
 	?>
@@ -31,6 +32,27 @@ if ( $attachment_ids ) {
 		<div class="cycle-prev"></div>
    		<div class="cycle-next"></div>
 		<?php
+			// shows main product image
+			if (has_post_thumbnail()) {
+		     	$image_caption = get_post( get_post_thumbnail_id() )->post_excerpt;
+			  	$image_link    = wp_get_attachment_url( get_post_thumbnail_id() );
+			  	$image         = get_the_post_thumbnail( $post->ID, apply_filters( 'single_product_large_thumbnail_size', 'shop_single' ), array(
+			  		'title'	=> get_the_title( get_post_thumbnail_id() )
+			  	) );
+
+			  	$attachment_count = count( $product->get_gallery_attachment_ids() );
+
+			  	if ( $attachment_count > 0 ) {
+			  		$gallery = '[product-gallery]';
+			  	} else {
+			  		$gallery = '';
+			  	}
+
+			  	echo apply_filters( 'woocommerce_single_product_image_html', sprintf( '<img src="%s" alt="%s" />', $image_link, $image_caption, $image, $post->ID) );
+		     }
+
+		     // shows product gallery images
+			if ($attachment_ids) {
 			 $args = array(
 			   'post_type' => 'attachment',
 			   'numberposts' => -1,
@@ -44,6 +66,7 @@ if ( $attachment_ids ) {
 			           echo wp_get_attachment_image( $attachment->ID, 'full' );
 			          }
 			     }
+		     }
 		?>
 
 	</div>

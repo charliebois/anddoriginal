@@ -82,8 +82,7 @@ Woocommerce override
 }
 
 .single-product .woocommerce div.product form.cart div.quantity{
-/*  float: none;
-  display: block;*/
+	margin-top: 10px;
 }
 
 .single-product.woocommerce div.product form.cart .button{
@@ -104,6 +103,13 @@ Woocommerce override
 
 .woocommerce span.onsale {
 	z-index: 1000 !important;
+}
+
+.single-product.woocommerce div.product form.cart .button {
+	padding: 15px 25px;
+	display: block;
+    margin-top: 10px;
+    clear: left;
 }
 
 #swipebox-close {bottom:0px !important; right:0px !important; top:initial !important;}
@@ -636,5 +642,19 @@ ul#header-menu {display:none;}
 .grid figure img {height:auto;}
 
 h1 {line-height: 1.4em; margin-bottom:40px;}
+
+.post-type-archive-product.woocommerce ul.products li.product, 
+.post-type-archive-product.woocommerce-page ul.products li.product {
+	width: 48%;
+}
+
+@media (max-width: 599px) {
+
+.post-type-archive-product.woocommerce ul.products li.product, 
+.post-type-archive-product.woocommerce-page ul.products li.product {
+	width: 100%;
+}
+
+}
 
 }
