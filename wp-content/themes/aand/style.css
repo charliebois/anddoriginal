@@ -52,7 +52,9 @@ Woocommerce override
 
 */
 
-.woocommerce {color:#FFF; font-size:12px; line-height:16px;}
+.woocommerce {color:#000; font-size:12px; line-height:16px;}
+
+.woocommerce a{ color: #000; text-decoration: underline; }
 
 .woocommerce-tabs {display:none;}
 
@@ -69,7 +71,8 @@ Woocommerce override
 .archive .woocommerce ul.products li.product .price,
 .archive .woocommerce ul.products li.product .amount,
 .single-product .woocommerce ul.products li.product .price,
-.single-product .woocommerce ul.products li.product .amount{
+.single-product .woocommerce ul.products li.product .amount,
+.single-product .woocommerce div.product p.price{
   color: #000;
 }
 
@@ -90,6 +93,11 @@ Woocommerce override
   display: block;*/
   background-color: #000;
   padding: 25px;
+}
+
+.single-product .woocommerce span.onsale,
+.woocommerce ul.products li.product .onsale {
+  background-color: #000;
 }
 
 .woocommerce .page-title{ display: none; }
