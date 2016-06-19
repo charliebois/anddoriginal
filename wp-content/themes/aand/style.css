@@ -52,7 +52,7 @@ Woocommerce override
 
 */
 
-.woocommerce {color:#000; font-size:12px; line-height:16px;}
+.woocommerce, .woocommerce table, .woocommerce-cart .entry-content p{color:#000; font-size:12px; line-height:16px;}
 
 .woocommerce a{ color: #000; text-decoration: underline; }
 
@@ -74,10 +74,6 @@ Woocommerce override
 .single-product .woocommerce ul.products li.product .amount,
 .single-product .woocommerce div.product p.price{
   color: #000;
-}
-
-.woocommerce div.product div.summary{
-  
 }
 
 .single-product .woocommerce div.product form.cart{
@@ -113,6 +109,41 @@ Woocommerce override
 .woocommerce span.onsale {
 	z-index: 1000 !important;
 }
+
+
+.woocommerce-page.woocommerce-cart .cart-collaterals .cart_totals, 
+.woocommerce-page .cart-collaterals .cart_totals {
+  width: 100%;
+}
+
+
+.cycle-slideshow .cycle-prev,
+.cycle-slideshow .cycle-next{
+  width: 10%;
+  background-image: none;
+
+}
+
+.cycle-slideshow .cycle-prev::before,
+.cycle-slideshow .cycle-next::before{
+  position: absolute;
+  z-index: 2000;
+  display: block;
+  top: 50%;
+  font-size: 45px;
+  width: 20px;
+  height: 20px;
+  color: #000;
+}
+
+.cycle-slideshow .cycle-prev::before{
+  content: '<';
+}
+
+.cycle-slideshow .cycle-next::before{
+  content: '>';
+}
+
 
 #swipebox-close {bottom:0px !important; right:0px !important; top:initial !important;}
 
