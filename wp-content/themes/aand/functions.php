@@ -269,4 +269,6 @@ function postDateFormat($postDate,$dateFormat = "M d, Y")
 {
 	return mysql2date($dateFormat,$postDate);
 }
+
+add_theme_support('post-thumbnails');
 ?>
