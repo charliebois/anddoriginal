@@ -120,6 +120,10 @@ Woocommerce override
     clear: left;
 }
 
+.single-product.woocommerce div.product form.cart .variations {
+	width: 87%;
+}
+
 #swipebox-close {bottom:0px !important; right:0px !important; top:initial !important;}
 
 
