@@ -76,6 +76,34 @@ Woocommerce override
   color: #000;
 }
 
+/* Single Product Page */
+
+.single-product .woocommerce div.product form.cart div.quantity{
+  float: none;
+}
+
+.single-product .woocommerce div.product p.price{
+  margin: 20px 0;
+}
+
+.item-desc{
+  margin: 20px 0;
+}
+
+.label{
+  margin-top: 20px;
+  text-align: left;
+}
+
+.quantity{
+  font-weight: 700;
+}
+
+.sizing-chart{
+  color: #fff;
+  text-decoration: underline;
+}
+
 .single-product .woocommerce div.product form.cart{
   text-align: right;
 }
