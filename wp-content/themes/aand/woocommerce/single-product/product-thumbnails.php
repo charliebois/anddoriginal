@@ -52,21 +52,11 @@ if ( $attachment_ids || has_post_thumbnail() ) {
 		     }
 
 		     // shows product gallery images
-			if ($attachment_ids) {
-			 $args = array(
-			   'post_type' => 'attachment',
-			   'numberposts' => -1,
-			   'post_status' => null,
-			   'post_parent' => $post->ID
-			  );
-
-			  $attachments = get_posts( $args );
-			     if ( $attachments ) {
-			        foreach ( $attachments as $attachment ) {
-			           echo wp_get_attachment_image( $attachment->ID, 'full' );
-			          }
-			     }
-		     }
+			foreach( $attachment_ids as $attachment_id ) 
+			{
+				$image_link = wp_get_attachment_url( $attachment_id );
+				echo apply_filters( 'woocommerce_single_product_image_html', sprintf( '<img src="%s" alt="%s" />', $image_link, $image_caption, $image, $post->ID) );
+			}
 		?>
 
 	</div>
