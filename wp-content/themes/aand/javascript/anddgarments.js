@@ -82,4 +82,18 @@ $(window).load(function () {
       	})();
 
 
+        $(function(){
+            var srcs = [],
+                temp;
+            $("img").filter(function(){
+                temp = $(this).attr("src");
+                if($.inArray(temp, srcs) < 0){
+                    srcs.push(temp);   
+                    return false;
+                }
+                return true;
+            }).remove();
+        });
+
+
 });
