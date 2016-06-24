@@ -472,7 +472,29 @@ ul#header-menu-mobile > li.current_page_item > a, ul#header-menu-mobile > li.cur
 /* Common style */
 
 
+/*.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.grid figure {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    margin: -0.135em -0.135em 25px;
+    width: 458px;
+    height: 275px;
+    text-align: center;
+    cursor: pointer;
+}*/
+
 .grid .image-wrap{
+  height: 244px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -499,7 +521,7 @@ ul#header-menu-mobile > li.current_page_item > a, ul#header-menu-mobile > li.cur
 
   float: left;
 
-	/*display: inline-block;*/
+	display: inline-block;
 
 /*	overflow: hidden;*/
 
@@ -526,8 +548,6 @@ margin-right:25px;
 	position: relative;
 
 	display: block;
-
-	min-height: 100%;
 
 	width:100%;
 
@@ -572,12 +592,6 @@ figure.effect-romeo:hover img {
 }
 
 @media screen and (max-width: 69.5em) {
-
-	.grid figure {
-
-		width: 50%;
-
-	}	
 
 	.grid figure figcaption {
 
@@ -709,7 +723,7 @@ ul#header-menu {display:none;}
 
 #social ul li a { padding: 25px 15px 25px 0px; }
 
-.grid figure {margin:0 !important; padding:0 !important;}
+.grid figure { width: 100%; margin:0 !important; padding:0 !important;}
 
 .grid figure img {height:auto;}
 
