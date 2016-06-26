@@ -28,7 +28,7 @@ if ( $attachment_ids || has_post_thumbnail() ) {
 	$loop 		= 0;
 	$columns 	= apply_filters( 'woocommerce_product_thumbnails_columns', 3 );
 	?>
-	<div class="cycle-slideshow">
+	<div class="cycle-slideshow" data-paused="true">
 		<div class="cycle-prev"></div>
    		<div class="cycle-next"></div>
 		<?php
