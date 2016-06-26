@@ -138,10 +138,38 @@ Woocommerce override
 }
 
 
+/*Checkout / Cart Styling*/
+
 .woocommerce-page.woocommerce-cart .cart-collaterals .cart_totals, 
 .woocommerce-page .cart-collaterals .cart_totals {
   width: 100%;
 }
+
+.page.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.page.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover{
+  background-color: #000;
+}
+
+.page.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+  background-color: #000 !important;
+}
+
+.woocommerce input.button{
+  padding: 15px 20px !important;
+}
+
+input[type=text]:focus, textarea:focus{
+  padding: 11px 10px;
+}
+
+#add_payment_method #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li{
+  list-style: none;
+}
+
+/*.page.woocommerce- .woocommerce-info {
+  border-top-color: #000;
+}
+*/
 
 
 .cycle-slideshow .cycle-prev,
@@ -373,7 +401,7 @@ wrapper .metaslider {position:relative !important;}
 
 .entry-content {font-size:12px; line-height:22px;}
 
-.entry-content p {margin-bottom:10px; color:#FFF; font-size:1em;}
+.entry-content p {margin-bottom:10px; color:#000; font-size:1em;}
 
 .entry-content h2 {padding:10px 0;}
 
@@ -499,13 +527,13 @@ ul#header-menu-mobile > li.current_page_item > a, ul#header-menu-mobile > li.cur
 }
 
 .grid figure .project-title{
-  padding: 15px 0;
+  padding: 22px 0;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
+/*  background-color: #000;*/
+  color: #000;
 }
 
 .grid figure a{
@@ -525,7 +553,7 @@ ul#header-menu-mobile > li.current_page_item > a, ul#header-menu-mobile > li.cur
 
 /*	overflow: hidden;*/
 
-	margin: -0.135em -0.135em 25px -0.135em;
+	margin: -0.135em -0.135em 0 -0.135em;
 
 	width: 458px;
 
