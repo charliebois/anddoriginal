@@ -18,11 +18,11 @@ ini_set('display_errors', '1');
 </head>
 <body <?php body_class(); ?>>
 <ul id="menu">
-	<li><a href="http://anddoriginal.com/projects/">Projects</a></li>
+		<li><a href="http://anddoriginal.com/projects/">Projects</a></li>
     <li><a href="http://anddgorginal.com/shop-coming-soon/">Shop</a></li>
     <li><a href="http://anddgorginal.com/about/">About</a></li>
     <li><a href="http://anddgorginal.com/contact/">Contact</a></li>
-    <li><a href="https://instagram.com/anddoriginal/"><img src="http://anddgarments.com/wp-content/themes/aand/images/insta.png"></a></li>
+    <li><a href="https://instagram.com/anddoriginal/">Instagram</a></li>
 </ul>
 <?php if(is_home()) { ?>
     <?php echo do_shortcode("[metaslider id=198 percentwidth=100 percentheight=100]"); ?>

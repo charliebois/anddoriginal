@@ -166,10 +166,18 @@ input[type=text]:focus, textarea:focus{
   list-style: none;
 }
 
-/*.page.woocommerce- .woocommerce-info {
-  border-top-color: #000;
+
+
+.slicknav_nav a{
+  padding: 30px 10px;
+  margin: 0px 0px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
 }
-*/
 
 
 .cycle-slideshow .cycle-prev,
