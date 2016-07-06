@@ -7,7 +7,7 @@ ini_set('display_errors', '1');
 <?php include 'theme-variables.php'; ?>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<title><?php bloginfo('name'); ?><?php wp_title( '|', true, 'left' ); ?></title>
+	<title>andd | <?php wp_title( '|', true, 'left' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
