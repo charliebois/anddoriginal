@@ -135,6 +135,7 @@ Woocommerce override
 .post-type-archive-product.woocommerce ul.products li.product, 
 .post-type-archive-product.woocommerce-page ul.products li.product {
 	width: 30.5%;
+  clear: none;
 }
 
 .woocommerce span.onsale {
