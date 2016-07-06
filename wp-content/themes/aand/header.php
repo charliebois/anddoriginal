@@ -21,7 +21,7 @@ ini_set('display_errors', '1');
 		<li><a href="http://anddoriginal.com/projects/">Projects</a></li>
     <li><a href="http://anddoriginal.com/shop/">Shop</a></li>
     <li><a href="http://anddoriginal.com/about/">About</a></li>
-    <li><a href="http://anddoriginal.com/contact/">Contact</a></li>
+    <li><a href="mailto:info@anddorignal.com?Subject=Inquiry">Contact</a></li>
     <li><a href="https://instagram.com/anddoriginal/">Instagram</a></li>
 </ul>
 <?php if(is_home()) { ?>
