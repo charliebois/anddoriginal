@@ -101,11 +101,8 @@
     margin:0;
 }
 .slicknav_nav .slicknav_row:hover {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    background:#ccc;
-    color:#fff;
+    background:#fff;
+    color:#000;
 }
 
 .slicknav_nav a:hover{
