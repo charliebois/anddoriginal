@@ -19,7 +19,7 @@ ini_set('display_errors', '1');
 <body <?php body_class(); ?>>
 <ul id="menu">
 		<li><a href="http://anddoriginal.com/projects/">Projects</a></li>
-    <li><a href="http://anddgorginal.com/shop-coming-soon/">Shop</a></li>
+    <li><a href="http://anddgorginal.com/shop/">Shop</a></li>
     <li><a href="http://anddgorginal.com/about/">About</a></li>
     <li><a href="http://anddgorginal.com/contact/">Contact</a></li>
     <li><a href="https://instagram.com/anddoriginal/">Instagram</a></li>
