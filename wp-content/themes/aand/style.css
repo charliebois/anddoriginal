@@ -128,6 +128,10 @@ Woocommerce override
 
 .woocommerce a.button.add_to_cart_button{ display: none;}
 
+.woocommerce .woocommerce-ordering{
+  display: none;
+}
+
 .post-type-archive-product.woocommerce ul.products li.product, 
 .post-type-archive-product.woocommerce-page ul.products li.product {
 	width: 30.5%;
@@ -741,7 +745,7 @@ select {
 
 #menu {display:none;}
 
-main {margin-top:70px;}
+main {margin-top:120px;}
 
 .wrapper {width:100%;}
 

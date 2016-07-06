@@ -39,7 +39,7 @@ if ( ! $product->is_purchasable() ) {
 
 	<?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
-	<a href="#" class="button">Sizing Chart</a>
+	<a href="/sizing-and-terms" class="button">Sizing Chart</a>
 
 	<form class="cart" method="post" enctype='multipart/form-data'>
 	 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
