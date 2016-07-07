@@ -271,4 +271,20 @@ function postDateFormat($postDate,$dateFormat = "M d, Y")
 }
 
 add_theme_support('post-thumbnails');
+
+// Change number or products per row to 3
+add_filter('loop_shop_columns', 'loop_columns');
+if (!function_exists('loop_columns')) {
+	function loop_columns() {
+		return 3; // 3 products per row
+	}
+}
+
+// Redefine woocommerce_output_related_products()
+function woocommerce_output_related_products() {
+woocommerce_related_products(3,1); // Display 3 products in rows of 4
+}
+
+//NUMBER OF PRODUCTS TO DISPLAY ON SHOP PAGE
+add_filter( 'loop_shop_per_page',  create_function( '$cols', 'return 9;' ), 20 );
 ?>
