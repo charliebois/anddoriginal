@@ -7,7 +7,7 @@ ini_set('display_errors', '1');
 <?php include 'theme-variables.php'; ?>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<title><?php bloginfo('name'); ?><?php wp_title( '|', true, 'left' ); ?></title>
+	<title>andd <?php wp_title( '|', true, 'left' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
@@ -19,9 +19,9 @@ ini_set('display_errors', '1');
 <body <?php body_class(); ?>>
 <ul id="menu">
 		<li><a href="http://anddoriginal.com/projects/">Projects</a></li>
-    <li><a href="http://anddgorginal.com/shop-coming-soon/">Shop</a></li>
-    <li><a href="http://anddgorginal.com/about/">About</a></li>
-    <li><a href="http://anddgorginal.com/contact/">Contact</a></li>
+    <li><a href="http://anddoriginal.com/shop/">Shop</a></li>
+    <li><a href="http://anddoriginal.com/about/">About</a></li>
+    <li><a href="mailto:info@anddorignal.com?Subject=Inquiry">Contact</a></li>
     <li><a href="https://instagram.com/anddoriginal/">Instagram</a></li>
 </ul>
 <?php if(is_home()) { ?>

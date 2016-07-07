@@ -85,11 +85,12 @@ img.polaroid {
 
 
 table {
-	font-size:11px;
-    color:#FFF;
+	font-size:14px;
+  color:#000;
 	border-width: 1px;
 	border-color: #000;
 	border-collapse: collapse;
+  width: 100%;
 }
 table th {
 	border-width: 1px;
@@ -101,7 +102,14 @@ table td {
 	border-width: 1px;
 	padding: 0px;
 	border-style: solid;
-    border-color: #000;
+  border-color: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+table caption{
+  font-size: 22px;
+  margin-bottom: 50px;
 }
 
 
