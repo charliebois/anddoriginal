@@ -454,7 +454,7 @@ ul#header-menu li ul a { background:#DDD; color:#FFF; height:100%; line-height:2
 
 ul#header-menu li ul a:hover { color:#000; background:#EEE; }
 
-ul#header-menu > li.current_page_item > a, ul#header-menu > li.current-menu-ancestor > a, ul#header-menu > li.current-menu-item > a, ul#header-menu > li.current-menu-parent > a { color: #f9f9f9; }
+ul#header-menu > li.current_page_item > a, ul#header-menu > li.current-menu-ancestor > a, ul#header-menu > li.current-menu-item > a, ul#header-menu > li.current-menu-parent > a { font-weight: 900; }
 
 * html ul#header-menu li.current_page_item a, * html ul#header-menu li.current-menu-ancestor a, * html ul#header-menu li.current-menu-item a, * html ul#header-menu li.current-menu-parent a, * html ul#header-menu li a:hover { color:#DDD; }
 
